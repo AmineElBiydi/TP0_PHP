@@ -38,7 +38,7 @@
     writeEmailsToFile($SORTED_VALIDATE_EMAIL_FILE_NAME, $validateEmails);
 
     foreach( $domainEmails as $domainName => $emails){
-        writeEmailsToFile($domainName.".txt", $emails);
+        writeEmailsToFile( $domainName.".txt", $emails);
     }
 
 // functions :
