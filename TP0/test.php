@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php echo nl2br(htmlspecialchars($contentt)); ?>
 <?php endif; ?>
 
-<form method="POST" action="">
+<form method="POST">
     <button id="filtrerEmail" name="filtrerEmail" > Filtrer les adresses emails </button>
 </form>
 
