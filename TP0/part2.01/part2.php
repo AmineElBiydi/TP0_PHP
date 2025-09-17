@@ -167,6 +167,7 @@
             $mail->send();
             $mail->clearAddresses();
         }catch (Exception $e){
+            $mail->clearAddresses();
             echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         }
     }
